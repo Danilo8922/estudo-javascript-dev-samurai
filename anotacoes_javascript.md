@@ -86,3 +86,40 @@ X-Precisa começar com letras, ou - ou $, não podem iniciar com numeros
 X-Podem conter apenas letras, numeros, - ou $
 X-Case sencitive
 X-Não podem utilizar palavras reservadas do Javascript
+
+# operadores aritimetcos
+
+-operadores basicos 
++ --> Soma 
+- --> subtração
+* --> Multiplicação 
+/ --> divisão
+
+-Ordem de procedencia 
+1° () --> Parenteses
+2° * e / --> Multiplicação e divisão
+3° + e - --> Soma e subtração
+
+# Date
+
+## Como se declara uma variável Date no JS
+
+```javascript
+new Date() // inicializa com a data e hora atual do computador.
+new Date(year, month, day, hours, minutes, seconds, milliseconds) // inicializa com valores pré-definidos.
+new Date(dateString) // inicializa a partir de uma string.
+```
+
+## Principais métodos
+
+- `getDay()` e `setDay()` - Retorna / define o dia da semana (0-6).
+- `getDate()` e `setDate()` - Retorna / define o dia do mês (1-31).
+- `getMonth()` e `setMonth()` - Retorna / define o mês (0-11).
+- `getFullYear()` e `setFullYear()` - Retorna / define o ano.
+- `getHours()` e `setHours()` - Retorna / define a hora (0-23).
+- `getMinutes()` e `setMinutes()` - Retorna / define os minutos (0-59).
+- `getSeconds()` e `setSeconds()` - Retorna / define os segundos (0-59).
+- `parse()` - Recupera uma data a partir de uma string.
+- `toString()` - Retorna uma data como string.
+- `toISOString()` - Retorna uma data como string no padrão ISO.
+- `toTimeString()` - Retorna a hora apenas.
